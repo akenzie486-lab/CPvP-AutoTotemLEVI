@@ -1,0 +1,9 @@
+
+{
+  "type": "preload-native",
+  "name": "CPvP AutoTotem",
+  "author": "akenzie486-lab",
+  "version": "0.1.0",
+  "entry": "libCPvPAutoTotem.so",
+  "minecraft_versions": ["1.26.*"]
+}
