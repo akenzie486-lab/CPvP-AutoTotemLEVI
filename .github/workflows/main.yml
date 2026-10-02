@@ -14,10 +14,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
+        
       - name: Setup Android NDK
         uses: nttld/setup-ndk@v1
         with:
