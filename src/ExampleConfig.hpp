@@ -57,12 +57,14 @@ struct Schema<fullcppmod::ExampleConfig> {
 
         if (name == "opacity") {
             return {"Opacity", "Overlay opacity",
-                    kMinOpacity, kMaxOpacity, false};
+                    fullcppmod::kMinOpacity,
+                    fullcppmod::kMaxOpacity, false};
         }
 
         if (name == "scale") {
             return {"Scale", "Overlay scale",
-                    kMinScale, kMaxScale, false};
+                    fullcppmod::kMinScale,
+                    fullcppmod::kMaxScale, false};
         }
 
         if (name == "mode") {
